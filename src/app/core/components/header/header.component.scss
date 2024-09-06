@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.header {
+    background-color: #d1d1d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 10px 2%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 140px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.02);
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid #0f1610; // Añade un borde sólido de 2px
+    border-radius: 29px; // Esquinas redondeadas con un radio de 10px
+    background-color: #040504;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra sutil
+}
